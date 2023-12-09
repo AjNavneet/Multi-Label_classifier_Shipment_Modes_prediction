@@ -1,4 +1,4 @@
-# Multi-Label Classification for Predicting Shipment Modes
+# Multi-Label Classification for Shipment Mode Prediction
 
 ## Project Overview
 The transportation industry plays a vital role in the global economy, ensuring the efficient movement of goods. However, choosing the right mode of transport for each shipment can be a complex task, with various factors to consider. Accurate predictions of the appropriate mode of transport can significantly impact delivery time, costs, and safety. This project aims to develop a machine learning model to predict the suitable transport mode for each shipment using different multilabel classification approaches.
@@ -50,23 +50,13 @@ The transport dataset contains 2000 unique products with various features, inclu
 
 ---
 
-## Project Structure
+## Code Structure
 - `data`: Contains the dataset used for analysis.
 - `lib`: Reference folder with the original Jupyter notebook.
 - `ml_pipeline`: Python files with modular functions for data processing.
 - `engine.py`: The main execution script.
 - `requirements.txt`: List of required libraries and versions.
 - `readme.md`: Instructions for running the code.
-
----
-
-## Concepts Explored
-1. Understanding the significance of predicting the appropriate mode of transport in the transportation industry.
-2. Exploring multilabel classification and its applications.
-3. Utilizing Google BigQuery for dataset exploration and preprocessing.
-4. Implementing various multilabel classification approaches and evaluating their performance.
-5. Comparing and contrasting the results of different approaches.
-6. Understanding the trade-offs and limitations of each approach.
 
 ---
 
